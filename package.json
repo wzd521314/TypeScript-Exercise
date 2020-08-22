@@ -1,0 +1,33 @@
+{
+  "name": "typescriptexercise",
+  "version": "1.0.0",
+  "description": "typescript study",
+  "main": "./src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=production",
+    "serve": "webpack-dev-server --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wzd521314/TypeScript-Exercise.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Kugou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wzd521314/TypeScript-Exercise/issues"
+  },
+  "homepage": "https://github.com/wzd521314/TypeScript-Exercise#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "cross-env": "^7.0.2",
+    "html-webpack-plugin": "^4.3.0",
+    "ts-loader": "^8.0.2",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
